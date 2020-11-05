@@ -2,11 +2,11 @@
     "isClosedSource": false,
     "name": "ThemeTaschenmesser",
     "marketplaceName": {
-        "en": "Theme Mein-Taschenmesser",
-        "de": "Theme Mein-Taschenmesser"
+        "en": "orderproperty2020",
+        "de": "orderproperty2020"
     },
     "version": "5.0.11",
-    "namespace": "ThemeTaschenmesser",
+    "namespace": "orderproperty2020",
     "description": "Ceres Theme Extension for Webshop",
     "shortDescription": {
         "en": "Shop Theme",
@@ -14,8 +14,8 @@
     },
     "author": "3W Future",
     "authorIcon": "icon_author_xs.png",
-    "email": "jens.foerster@3wfuture.de",
-    "phone": "+49 341 39 28 1571",
+    "email": "info@greifswald-design.de",
+    "phone": "+49 1739817717",
     "keywords": [
         "theme",
         "Ceres",
@@ -23,24 +23,24 @@
     ],
     "type": "theme",
     "require": {
-        "IO": ">=5.0.11",
-        "Ceres": ">=5.0.11"
+        "IO": ">=5.0.14",
+        "Ceres": ">=5.0.14"
     },
-    "serviceProvider"   : "ThemeTaschenmesser\\Providers\\ThemeServiceProvider",
+    "serviceProvider"   : "orderproperty2020\\Providers\\ThemeServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"           : "ThemeTaschenmesser\\Containers\\ThemeOrderPropertyListGroupVueTemplateContainer",
+            "key"           : "orderproperty2020\\Containers\\ThemeOrderPropertyListGroupVueTemplateContainer",
             "name"          : "Container for OrderPropertyListGroup Component Template",
             "description"   : "Container for OrderPropertyListGroup Component Template"
         },
         {
-            "key"           : "ThemeTaschenmesser\\Containers\\ThemeOrderPropertyListItemVueTemplateContainer",
+            "key"           : "orderproperty2020\\Containers\\ThemeOrderPropertyListItemVueTemplateContainer",
             "name"          : "Container for OrderPropertyListItem Component Template",
             "description"   : "Container for OrderPropertyListItem Component Template"
         },
         {
-            "key"           : "ThemeTaschenmesser\\Containers\\ThemeItemFilterVueTemplateContainer",
+            "key"           : "orderproperty2020\\Containers\\ThemeItemFilterVueTemplateContainer",
             "name"          : "Container for CategoryFilterFacets Component Template",
             "description"   : "Container for CategoryFilterFacets Component Template"
         }
